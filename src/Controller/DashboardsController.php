@@ -18,7 +18,7 @@ class DashboardsController extends AppController
 	 */
 	public function index()
 	{
-			pr($this->Auth->user());
+		pr($this->Auth->user());
 		echo "dashboard";
 		exit();
 	}
